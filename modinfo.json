@@ -4,7 +4,7 @@
   "name": "Swatch",
   "authors": ["Feyd"],
   "description": "Try a different material on a build before you commit to it. Mark two corners with /sw mark, open the dialog with Ctrl+Shift+M, and swap one material for another across the whole selection: andesite to chalk, oak to maple, cobblestone to bricks.\n\nThe swap works on the block code rather than a fixed list, so every shape of a material moves together - raw rock, cobblestone, bricks, polished, stairs and slabs all convert in one action, and stair facings survive the change. The replacement list is built by asking the block registry what actually exists for the materials in your selection, so modded stone and wood show up on their own. Chiselled blocks are re-materialed in place, keeping their carving.\n\nEvery swap is undoable - /sw undo or the Undo button steps back through the last 25 swaps. Containers and other blocks holding contents are left alone.\n\nRequires the controlserver privilege.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "side": "Universal",
   "dependencies": {
     "game": ""
